@@ -1,3 +1,4 @@
-﻿  Lab03.cpp
-c:\users\zeigren\documents\github\laughing-garbanzo\lab03\lab03\lab03.cpp(314): warning C4101: 'weeksOnLot': unreferenced local variable
-  Lab03.vcxproj -> C:\Users\Zeigren\Documents\GitHub\laughing-garbanzo\Lab03\x64\Debug\Lab03.exe
+﻿  stdafx.cpp
+  Lab03.cpp
+c:\users\cmikk\onedrive\school\q3 - spring 2018\computer science 2\laughing-garbanzo\lab03\lab03\lab03.cpp(340): warning C4101: 'weeksOnLot': unreferenced local variable
+  Lab03.vcxproj -> C:\Users\cmikk\OneDrive\School\Q3 - Spring 2018\Computer Science 2\laughing-garbanzo\Lab03\x64\Debug\Lab03.exe
