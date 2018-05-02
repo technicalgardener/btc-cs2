@@ -1,3 +1,2 @@
 ﻿  Lab04.cpp
-e:\documents\github\laughing-garbanzo\lab04\lab04\lab04.cpp(247): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
   Lab04.vcxproj -> E:\Documents\GitHub\laughing-garbanzo\Lab04\x64\Debug\Lab04.exe
