@@ -1,0 +1,44 @@
+createNode
+listHead
+while (inf >> intv)
+  check if need to insert before 1st
+      if so, then do
+  while (moving through list)
+      if (reach numb->next == NULL)
+          then insert after
+      else if (n1 <= n2)
+          then switch
+      else move the pointer to the next falue
+
+---open disk file
+---create first node
+---read 1st value from file into that node (check to see if file-read FAILED)
+---make that 1st node the listHead
+---make a second node, named newNode (which begins life empty)
+--while ( read from file into newNode successfully?)
+  ---if NOT a successful read, not executing this loop! Have run out of file contents
+
+  ---is the newNode value < the value in headList?
+  ---if so, put newNode at the head of the list
+  ---else {
+    ---establish boolean variable "inserted" and initialize to false
+    ---set up my "movingPtr" to scan through the list by assigning listHead to it
+    ----while ( ! inserted )
+    ---is movingPtr->nextNode == NULL ? // Did we reach end of list?
+    
+     ----if so, put the newNode AFTER the one movingPtr is pointing to and make inserted true
+     ----else is the value in the node AFTER the one pointed to by movingPtr >= the newNode?
+     
+     if so, insert the newNode after movingPtr node and before the one beyond, 
+     and make inserted true
+
+     else advance movingPtr to point to the next node in the list, and (inner) loop 
+     } end of inner loop
+  } end of "else"
+  make newNode point to a new empty node and loop up to try to read a value into it
+}
+
+here I'm beyond both the inner and outer loop
+I've got one extra node that didn't get read into. delete it..
+
+Now print out the list.
