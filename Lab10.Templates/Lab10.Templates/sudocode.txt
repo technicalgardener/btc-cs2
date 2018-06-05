@@ -1,0 +1,4 @@
+1) listHead == NULL
+2) insert before listHead
+3) are we at the end of list?
+4) insert between
